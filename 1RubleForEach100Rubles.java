@@ -1,6 +1,4 @@
-Задача №2 - "Получи рубль за каждые 100!"
-```
-public class Main {
+public class 1RubleForEach100Rubles {
     public static void main(String[] args) {
 
 
@@ -21,4 +19,3 @@ public class Main {
 
 
 }
-```
