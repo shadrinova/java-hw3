@@ -1,5 +1,5 @@
-public class 1RubleForEach100Rubles {
-    public static void main(String[] args) {
+public class Main {
+    public static void 1RubleForEach100Rubles(String[] args) {
 
 
         int balance = 100;
