@@ -3,17 +3,14 @@ public class Main {
 
 
         int balance = 100;
-        int amountV1 = 100;
-        int amountV2 = 1100;
+        int amount = 1100;
         long balanceSum;
 
-        balanceSum = balance + amountV1;
+        balanceSum = balance + amount;
         if (balanceSum < 1000) {
             System.out.println("Ваш баланс " + balanceSum);
-            }
-        balanceSum = balance + amountV2;
-        if (balanceSum > 1000) {
-            System.out.println("Ваш баланс " + (amountV2/100 + balanceSum));
+        } else {
+            System.out.println("Ваш баланс " + (amount / 100 + balanceSum));
         }
     }
 
